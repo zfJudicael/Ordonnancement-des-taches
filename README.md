@@ -17,3 +17,9 @@ Il s’agit d’une application permettant de modéliser et planifier l’ordonn
  + Tableau des tâches ordonnées
  + Détails des dépendances
  + Graphe du chemin critique
+
+##  Technologies utilisées
+ + Vue.js
+ + TypeScript
+ + PrimeVue
+ + VueFlow pour les graphes
