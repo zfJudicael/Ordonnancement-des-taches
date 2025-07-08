@@ -260,7 +260,7 @@ export class TableModel {
     }
 
     setLateDate() {
-        let reversedOrderedTasks = this.orderedTasks.toReversed() as string[];
+        let reversedOrderedTasks = this.orderedTasks.reverse() as string[];
         for(const taskKey of reversedOrderedTasks){
     
           if (taskKey != 'fin' && taskKey != 'deb') {
@@ -279,6 +279,8 @@ export class TableModel {
                   }
           }
         }
+
+        this.orderedTasks.reverse()
     }
 
     setCriticalPath(){
